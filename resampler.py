@@ -49,7 +49,7 @@ for index, file in enumerate(audio_files, start=1):
         "-c:v", "copy",
         "-af", "aresample=resampler=soxr:precision=33",
         "-sample_fmt", "s32",
-        "-ar", "96000",
+        "-ar", "44100",
         "-c:a", "flac",
         "-compression_level", "8",
         str(output_file)
