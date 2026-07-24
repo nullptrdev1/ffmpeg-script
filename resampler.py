@@ -3,7 +3,7 @@ import subprocess
 import sys
 import time
 
-AUDIO_EXTENSIONS = {".wav"}
+AUDIO_EXTENSIONS = {".dsf"}
 
 folder_path = input("Masukkan path folder: ").strip()
 folder = Path(folder_path)
